@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(0.25turn, #A9D1B5, #FFFAD1, #F0B7DC,#CFC9F7,#DDEBF8);
+    color: #ffffff;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 3px black;
+}
+
+#scrimba-img {
+    width: 150px;
+    border-radius: 40%;
+    border: 6px solid #FFFAD1;
+    margin-bottom: 10px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-section {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gift-title {
+    margin-bottom: 10px;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+.gift-img{
+    height: 400px;
+    width: 400px;
+    background-image: url("images/mail.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gift-img-congratz:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExdjZqYW5mODZjY2JyaTB2Y2FpeHh5YXU4eG5kN29hc29vNWpuanFwdyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/d31w24psGYeekCZy/giphy.gif");
+}
+#gift-img-hard:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExemtvYjRtdzIzYWZpeWh2cmI1NjIycjc1dmZjYXM0MW9xbXJidTBreCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LKTTAzGboJGzC/giphy.gif");
+}
+
+#gift-img-giveup:hover{
+    background-image: url("https://media.giphy.com/media/fwifUCVr4fmidbLptV/giphy.gif")
+}
+
+#gift-img-greatjob:hover{
+    background-image: url("https://media.giphy.com/media/dkGhBWE3SyzXW/giphy.gif");
+}
+
+#gift-img-beginning:hover{
+    background-image: url("https://media.giphy.com/media/YsOQGFLy6l6aIqZ0ru/giphy.gif")
+}
+
+#gift-img-proud:hover{
+    background-image: url("https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTVzdXgwZWVwNzNldnI3dTdrcm8xYWY2N3M4NGtyaDM0ZmZwenB6byZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ely3apij36BJhoZ234/giphy-downsized-large.gif");
+}
+
+#gift-img-goodbye:hover{
+    background-image: url("https://media.giphy.com/media/l1J3CbFgn5o7DGRuE/giphy.gif")
+}
+
+
+#footer{
+    font-size: 20px;
+    color: black;
+}
+
+
