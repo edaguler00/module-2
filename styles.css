@@ -38,7 +38,7 @@ h1, h2, h3, h4, p {
 .gift-img{
     height: 400px;
     width: 400px;
-    background-image: url("images/mail.jpg");
+    background-image: url("mail.jpg");
     background-size: contain;
     background-repeat: no-repeat;
 }
